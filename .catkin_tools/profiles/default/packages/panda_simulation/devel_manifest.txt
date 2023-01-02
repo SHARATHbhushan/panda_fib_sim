@@ -1,0 +1,9 @@
+franka_panda/panda_simulation
+/home/acefly/pick_place_test/devel/.private/panda_simulation/cmake.lock /home/acefly/pick_place_test/devel/./cmake.lock
+/home/acefly/pick_place_test/devel/.private/panda_simulation/share/panda_simulation/cmake/panda_simulationConfig.cmake /home/acefly/pick_place_test/devel/share/panda_simulation/cmake/panda_simulationConfig.cmake
+/home/acefly/pick_place_test/devel/.private/panda_simulation/share/panda_simulation/cmake/panda_simulationConfig-version.cmake /home/acefly/pick_place_test/devel/share/panda_simulation/cmake/panda_simulationConfig-version.cmake
+/home/acefly/pick_place_test/devel/.private/panda_simulation/lib/libpanda_simulation_controllers_lib.so /home/acefly/pick_place_test/devel/lib/libpanda_simulation_controllers_lib.so
+/home/acefly/pick_place_test/devel/.private/panda_simulation/lib/pkgconfig/panda_simulation.pc /home/acefly/pick_place_test/devel/lib/pkgconfig/panda_simulation.pc
+/home/acefly/pick_place_test/devel/.private/panda_simulation/lib/panda_simulation/robot_control_node /home/acefly/pick_place_test/devel/lib/panda_simulation/robot_control_node
+/home/acefly/pick_place_test/devel/.private/panda_simulation/lib/panda_simulation/box_publisher_node /home/acefly/pick_place_test/devel/lib/panda_simulation/box_publisher_node
+/home/acefly/pick_place_test/devel/.private/panda_simulation/lib/panda_simulation/robot_state_initializer_node /home/acefly/pick_place_test/devel/lib/panda_simulation/robot_state_initializer_node

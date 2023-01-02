@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='tangram_1'>
+    <link name='tangram_1'>
+      <inertial>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <!--NOTE: Uses Polyethylene density to calculate the mass
+        see https://en.wikipedia.org/wiki/Polyethylene
+        -->
+        <mass>0.00020735999999999996</mass>
+        <inertia>
+          <ixx>0.010</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.010</iyy>
+          <iyz>0</iyz>
+          <izz>0.010</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <geometry>
+          <mesh>
+            <uri>model://tangram_1/A2x2_coordinate_fixedv1.stl</uri>
+            <scale>0.0001 0.0001 0.0001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Red</name>
+          </script>
+          <shader type='pixel'/>
+        </material>  
+      </visual>
+      <collision name='collision'>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <geometry>
+          <mesh>
+            <uri>model://tangram_1/A2x2_coordinate_fixedv1.stl</uri>
+            <scale>0.0001 0.0001 0.0001</scale>
+          </mesh>
+        </geometry>
+        <gazebo reference="box_link">
+          <kp>10000000.0</kp>
+          <kd>1.0</kd>
+          <mu1>100000.0</mu1>
+          <mu2>100000.0</mu2>
+          <minDepth>0.001</minDepth>
+        </gazebo>
+      </collision>
+    </link>
+  </model>
+</sdf>

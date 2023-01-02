@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='tangram_5'>
+    <link name='link'>
+      <inertial>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <!--NOTE: Uses Polyethylene density to calculate the mass
+        see https://en.wikipedia.org/wiki/Polyethylene
+        -->
+        <mass>0.20735999999999996</mass>
+
+      </inertial>
+      <visual name='visual'>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <geometry>
+          <mesh>
+            <uri>model://tangram_5/C1x2_coordinate_fixedv1.stl</uri>
+            <scale>0.0001 0.0001 0.0001</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='collision'>
+        <!-- <pose>0.03 0.03 0.03 0 -0 0</pose> -->
+        <geometry>
+          <mesh>
+            <uri>model://tangram_5/C1x2_coordinate_fixedv1.stl</uri>
+            <scale>0.0001 0.0001 0.0001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+    <static>true</static>
+  </model>
+</sdf>

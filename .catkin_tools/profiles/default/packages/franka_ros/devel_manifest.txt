@@ -1,0 +1,2 @@
+franka_panda/franka_ros/franka_ros
+/home/acefly/pick_place_test/devel/.private/franka_ros/cmake.lock /home/acefly/pick_place_test/devel/./cmake.lock
